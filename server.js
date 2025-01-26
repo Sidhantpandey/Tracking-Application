@@ -23,12 +23,7 @@ const io = new Server(server); // Attach Socket.IO to the server
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
-app.use(cors({
-  origin: 'https://tracking-application-1.onrender.com/', // Allow requests from this specific origin
-  methods: 'GET,POST,PUT,DELETE', // Allowed HTTP methods
-  allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
-  credentials: true // Enable credentials (cookies, authorization headers)
-}));
+app.use(cors());
 
 
 // Store location of the users
