@@ -67,7 +67,7 @@ navigator.geolocation.watchPosition((position) => {
 // Code for informing within the range or not
 // If you are within 1 km of the Muradnagar  Station you will be warned
 const GEOFENCE_CENTER = [28.771646, 77.507561];
-const GEOFENCE_RADIUS = 100;
+const GEOFENCE_RADIUS = 10000;
 
 navigator.geolocation.watchPosition((position) => {
   const { latitude, longitude } = position.coords;
