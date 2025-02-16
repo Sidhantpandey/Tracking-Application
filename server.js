@@ -1,8 +1,9 @@
 import express from "express";
 import "dotenv/config";
+<<<<<<< HEAD
 import cors from "cors"
-
-
+=======
+>>>>>>> origin/main
 import cluster from "node:cluster";
 import os from "node:os";
 import process from "node:process";
@@ -22,13 +23,15 @@ const io = new Server(server); // Attach Socket.IO to the server
 // Middlewares
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files
-
+<<<<<<< HEAD
 app.use(cors({
   origin: 'https://tracking-application-nbbf.onrender.com/', // Allow requests from this specific origin
   methods: 'GET,POST,PUT,DELETE', // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
   credentials: true // Enable credentials (cookies, authorization headers)
 }));
+=======
+>>>>>>> origin/main
 
 // Store location of the users
 const users = {};
