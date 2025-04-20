@@ -1,4 +1,4 @@
-# Google Maps-Based Tracking Application
+# Google Maps-Based Tracking Application And Real Time Notification Alerts
 
 ## Description
 This is a real-time tracking application built using Google Maps API and Node.js. The application enables users to track locations with real-time updates, display markers on the map, and receive notifications when a user enters a specific radius.
