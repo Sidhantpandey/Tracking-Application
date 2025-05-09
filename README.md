@@ -4,13 +4,13 @@
 This is a real-time tracking application built using Google Maps API and Node.js. The application enables users to track locations with real-time updates, display markers on the map, and receive notifications when a user enters a specific radius.
 
 ## Features
-- Display markers on the map
-- WebSockets integration for real-time updates
+- Display location markers on the map
+- WebSockets integration for real-time markers position.
 - Notification system using Toastify.js for radius alerts
-- Blue circle over marker for accuracy representation
+- Blue circle over marker for accuracy representations
 
 ## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript ,ejs
 - **Real-time Communication:** WebSockets (Socket.io)
 
 ## File Structure
